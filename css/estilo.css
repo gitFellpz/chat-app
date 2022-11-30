@@ -1,3 +1,73 @@
 body{
     font-family: 'Rubik', sans-serif;
+    background-color: hsl(270, 20%, 96%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
 }
+
+.gradient{
+    position: absolute;
+    width: 30vw;
+    height: 70vh;
+    background-color: black;
+    border-radius: 0 0 20vw 20vw;
+}
+.gradient__escuro{
+    top:0;
+    left: -7vw;
+    background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%) 70%);
+}
+.gradient__claro{
+    right: -7vw;
+    bottom: 0;
+    rotate: 180deg;
+    background-color: hsl(276, 100%, 81%);
+    opacity: 8%;
+}
+
+.smartphone{
+    z-index: 5;
+    width: 500px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.principal{
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
