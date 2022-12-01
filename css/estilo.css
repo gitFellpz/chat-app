@@ -109,46 +109,44 @@ body{
 
 @media screen and (max-width: 768px) {
     .smartphone{
-        width: 250px;
+        margin-top: 5vh;
+        width: 280px;
     }
+
+    .header{
+        height: 80px;
+    }
+
     .notch{
         width: 150px;
-        left: 55px;
-    }
-    
-    .header__info img{
-        width: 30px;
+        left: 70px;
         height: 30px;
-        border-radius: 20px;
-        border: solid 2px white;
+        top: -12px;
+    }
+
+    .header__info {
+        padding-top: 35px;
+    }
+
+    .header__info img{
+        width: 25px;
+        height: 25px;
     }
     
     .header__info__box--1{
-        display: flex;
-        align-items: center;
-        gap: 20px;
+        gap: 10px;
     }
     
-    .header__info__box--2{
-        margin-right: 15px;
+    .header__info__descricoe h2{
+        font-size: 0.5rem;
     }
-    
-    .header__info__box--2 i{
-        font-size: 1.1rem;
-    }
-    
-    .fa-chevron-left, .fa-ellipsis-v{
-        color: white;
-    }
-    
-    .header__info__descricoes h2{
-        color: white;
-    }
-    
+
     .header__info__descricoes p{
-        color: hsl(276, 100%, 81%);
-        font-size: 0.8rem;
-        margin-top: 5px;
+        font-size: 0.65rem;
+    }
+
+    .header__info__box--2{
+        margin-right: 5px;
     }
 }
 
