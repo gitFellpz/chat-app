@@ -115,6 +115,41 @@ body{
         width: 150px;
         left: 55px;
     }
+    
+    .header__info img{
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+        border: solid 2px white;
+    }
+    
+    .header__info__box--1{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .header__info__box--2{
+        margin-right: 15px;
+    }
+    
+    .header__info__box--2 i{
+        font-size: 1.1rem;
+    }
+    
+    .fa-chevron-left, .fa-ellipsis-v{
+        color: white;
+    }
+    
+    .header__info__descricoes h2{
+        color: white;
+    }
+    
+    .header__info__descricoes p{
+        color: hsl(276, 100%, 81%);
+        font-size: 0.8rem;
+        margin-top: 5px;
+    }
 }
 
 
