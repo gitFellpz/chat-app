@@ -16,7 +16,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
 
   </head>
   <body>
@@ -29,23 +29,27 @@
         <div class="notch"></div>
 
         <div class="header__info">
-          <i class="fas fa-chevron-left"></i>
-          <img src="./images/avatar.jpg" alt="">
+          <div class="header__info__box--1">
+            <i class="fas fa-chevron-left"></i>
+            <img src="./images/avatar.jpg" alt="">
 
-          <div class="header__info__descricoes">
-            <h2>Samuel Green</h2>
-            <p>Available to Walk</p>
+            <div class="header__info__descricoes">
+              <h2>Samuel Green</h2>
+              <p>Available to Walk</p>
+            </div>
+
           </div>
 
-          <i class="fas fa-ellipsis-v"></i>
+          <div class="header__info__box--2">
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+
         </div>
-        
       </header>
-
       <main class="main">
-        <p>That sounds great. I’d be happy with that.</p>
+        <p class="chat chat__esquerda">That sounds great. I’d be happy with that.</p>
 
-        <p>Could you send over some pictures of your dog, please?</p>
+        <p class="chat chat__esquerda">Could you send over some pictures of your dog, please?</p>
 
         <div class="main__box__img">
           <img src="./images/dog-image-1.jpg" alt="">
@@ -53,19 +57,19 @@
           <img src="./images/dog-image-3.jpg" alt="">
         </div>
 
-        <p>Here are a few pictures. She’s a happy girl!</p>
+        <p class="chat chat__direita">Here are a few pictures. She’s a happy girl!</p>
 
-        <p>Can you make it?</p>
+        <p class="chat chat__direita chat__direita--menor">Can you make it?</p>
 
-        <p>She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+        <p class="chat chat__esquerda">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
 
-        <div class="main__preco">
+        <div class="chat chat__esquerda main__preco">
           <i class="far fa-circle"></i>
           <p>30 minute walk</p>
           <span>$29</span>
         </div>
 
-        <div class="main__preco">
+        <div class="chat chat__esquerda main__preco main__preco--2">
           <i class="far fa-circle"></i>
           <p>1 hour walk</p>
           <span>$49</span>
