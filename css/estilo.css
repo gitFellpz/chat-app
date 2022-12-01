@@ -298,6 +298,16 @@ body{
 @media screen and (max-width: 768px) {
     .principal{
         text-align: center;
+        margin: 20px 20px;
+    }
+
+    .principal h1{
+        font-size: 2.3rem;
+        margin-bottom: 20px;
+    }
+    
+    .principal p{
+        font-size: 0.9rem;
     }
     
 }
